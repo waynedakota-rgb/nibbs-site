@@ -1,0 +1,34 @@
+:root {
+  --bg: #F5F7F4; --surface: #FFFFFF; --text: #1C2B27; --muted: #4D5A56; --border: #C9D2CD;
+  --primary: #1F6B5E; --primary-deep: #174F45; --primary-soft: #DCE8E4; --hairline: #E1E6E2;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121A18; --surface: #1B2522; --text: #E6EDEA; --muted: #A3B1AC; --border: #3A4743;
+    --primary: #5FC4AE; --primary-deep: #9FE0CF; --primary-soft: #1F3A33; --hairline: #2A3632;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 'Lexend', system-ui, sans-serif; }
+a { color: var(--primary); }
+a:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+header { background: var(--surface); border-bottom: 1px solid var(--hairline); }
+.bar { max-width: 760px; margin: 0 auto; padding: 14px 20px; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; }
+.brand { font-weight: 700; font-size: 20px; color: var(--text); text-decoration: none; margin-right: auto; }
+nav a { text-decoration: none; font-weight: 500; font-size: 15px; }
+main { max-width: 760px; margin: 0 auto; padding: 28px 20px 56px; }
+h1 { font-size: 34px; line-height: 1.2; margin: 0 0 8px; text-wrap: balance; }
+h2 { font-size: 22px; margin: 36px 0 8px; }
+h3 { font-size: 18px; margin: 24px 0 6px; }
+p, li { max-width: 68ch; }
+.updated { color: var(--muted); font-size: 15px; margin: 0 0 24px; }
+.lead { font-size: 19px; color: var(--muted); }
+.note { background: var(--primary-soft); border-radius: 14px; padding: 14px 18px; margin: 20px 0; }
+.table { overflow-x: auto; margin: 12px 0; }
+table { border-collapse: collapse; width: 100%; min-width: 520px; background: var(--surface); border: 1px solid var(--hairline); border-radius: 12px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--hairline); font-size: 15px; }
+th { font-weight: 600; }
+.email { font-weight: 600; user-select: all; }
+footer { border-top: 1px solid var(--hairline); color: var(--muted); font-size: 14px; }
+footer .bar { padding: 18px 20px; }
