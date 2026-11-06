@@ -1,3 +1,4 @@
+@font-face { font-family: "Lexend"; font-style: normal; font-weight: 100 900; font-display: swap; src: url(/fonts/lexend-latin.woff2) format("woff2"); }
 :root {
   --bg: #F5F7F4; --surface: #FFFFFF; --text: #1C2B27; --muted: #4D5A56; --border: #C9D2CD;
   --primary: #1F6B5E; --primary-deep: #174F45; --primary-soft: #DCE8E4; --hairline: #E1E6E2;
