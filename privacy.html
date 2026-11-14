@@ -31,7 +31,7 @@
 <tr><td>Trees</td><td>Trees you plant or join, your display name and forest-creature avatar, join requests, reports and blocks you make, assignments you share or receive, and who you let see your schedule</td><td>You, when you use Trees</td></tr>
 <tr><td>Support tickets</td><td>What you write to us, our replies, the ticket topic, plus app version, device type (Android, iPhone or web browser) and OS version</td><td>You, when you contact support</td></tr>
 <tr><td>Ads</td><td>Which ads were shown and tapped, plus device and app information Google AdMob needs to show an ad and stop fraud</td><td>Collected by Google AdMob when an ad shows. A teen who says no to ads sees none</td></tr>
-<tr><td>Notifications</td><td>Nothing leaves your phone. Reminders are scheduled on the phone itself</td><td>Only if you allow notifications</td></tr>
+<tr><td>Notifications</td><td>Your everyday reminders are scheduled on the phone itself and don't leave it. If you're signed in and notifications are on, your phone's push token (a random address for sending a notification to that phone) is saved with your account, along with whether the phone is Android or iPhone. We use it only to send one reminder before an inactive account is deleted. Signing out removes it from your account</td><td>Only if you allow notifications</td></tr>
 </table></div>
 <p>We do not collect your contacts, photos, microphone, or browsing history. We do not use your camera. Nibbs itself does not collect your location — but the ads service (Google AdMob) sees your rough location from your IP address, as listed under 'Who we share it with' below.</p>
 <p><strong>On the web</strong>, Nibbs doesn't set cookies. The web app keeps your sign-in and settings in your browser's own storage, and your homework in a private database inside your browser. When you sign in with Google, Google may set its own cookies on its own site. We don't read them.</p>
@@ -39,7 +39,7 @@
 <h2>How we use it</h2>
 <ul>
 <li>Rank and schedule your homework, and back it up to your account when you sign in.</li>
-<li>Send the notifications you turned on (today's plan, deadline risk, break's over).</li>
+<li>Send the notifications you turned on (today's plan, deadline risk, break's over), and one "Still there?" reminder before an inactive account is deleted.</li>
 <li>Let Trees members see what you chose to share, and keep teens and adults in separate Trees.</li>
 <li>Answer your support tickets and fix bugs you report.</li>
 <li>Keep Nibbs safe: act on reports, enforce blocks, and stop abuse.</li>
@@ -58,7 +58,7 @@
 <tr><td>Supabase</td><td>Your account and everything you save in Nibbs</td><td>Hosts our database and sign-in, in the United States</td></tr>
 <tr><td>Google</td><td>Sign-in only: Google confirms who you are</td><td>Google sign-in</td></tr>
 <tr><td>Google AdMob</td><td>Device and app information, your rough location from your IP address, and which ads were shown and tapped. Teens get Google's teen ad protections. Ads are capped at a PG rating, and we block dating, gambling, alcohol, weight-loss and other sensitive ads. For adults (18+) who allow personalized ads, Google may also use this to choose ads based on interests</td><td>Shows the ads that keep Nibbs free. Google's use is covered by <a href="https://policies.google.com/technologies/partner-sites">Google's policy for partner apps</a></td></tr>
-<tr><td>Expo</td><td>A random update ID, app version and device type when the app checks for updates, plus the error message if the app fails to start</td><td>Delivers app updates</td></tr>
+<tr><td>Expo</td><td>A random update ID, app version and device type when the app checks for updates, plus the error message if the app fails to start. For the inactive-account reminder: your push token and the reminder text, which Expo passes to Google or Apple to show it on your phone</td><td>Delivers app updates and push notifications</td></tr>
 <tr><td>GitHub</td><td>The text of your support tickets, the topic, and app version, device type and OS version. Never your email or name</td><td>Our team reads and answers tickets there, in a private project</td></tr>
 <tr><td>Trees members</td><td>Your display name and avatar. Assignments you choose to share: a copy of the name, class, due date, length and importance of a task you already have. Your schedule only if you allow it: Free/busy shows the times you've locked, Full shows your open assignments. No access by default</td><td>You decide in Manage sharing</td></tr>
 </table></div>
@@ -93,7 +93,7 @@
 
 <h2>Keeping, protecting and changing this policy</h2>
 <ul>
-<li><strong>How long we keep it.</strong> As long as your account is open. When you delete your account, it's removed from our database right away. If an account has no sign-in for 2 years, we delete it the same way.</li>
+<li><strong>How long we keep it.</strong> As long as your account is open. When you delete your account, it's removed from our database right away. If an account has no sign-in for 2 years, we delete it the same way. If notifications are on, we send a reminder to your phone 30 days before, and signing in once keeps your account.</li>
 <li><strong>Security.</strong> Data travels encrypted (HTTPS). Database rules let each person read only their own data, and Trees data only for Trees they belong to. No system is perfect. If we learn of a breach that affects you, we'll tell you as the law requires.</li>
 <li><strong>Changes.</strong> If we change this policy, we'll update the date at the top. Before a big change takes effect, we'll tell you in the app or another way where we can.</li>
 <li><strong>Contact.</strong> In the app: Help, Contact support. By email: <span class="email">nibbs-support@googlegroups.com</span>. By mail: Vectrix LLC, 11175 Cicero Drive, Suite 100, Alpharetta, GA 30022, USA.</li>
