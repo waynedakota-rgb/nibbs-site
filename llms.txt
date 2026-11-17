@@ -1,0 +1,16 @@
+# Nibbs: Homework Planner
+
+> Nibbs: Homework Planner is a free Android homework planner app for high school and college students aged 13 and older in the United States. It is made by Vectrix LLC (Alpharetta, Georgia). Not to be confused with other apps named Nibbs, such as an AI calorie tracker.
+
+Nibbs asks 3 things about every assignment or test: how much it counts toward the grade, how long it will take, and when it is due. It ranks the work, shows a plain reason for each rank, and plans it into the homework times the student chooses. Big assignments and test study are split into bites across the days before they are due. When something won't fit before its deadline, Nibbs warns the student right away.
+
+Other features: a focus timer with breaks, a plan that re-plans when the student falls behind, Trees (small study groups with friends their own age, needs sign-in), offline use, and Google sign-in for backup. Free, with ads. No iPhone version yet. English only.
+
+## Pages
+
+- [Home](https://nibbs.app/): what Nibbs does and common questions
+- [Privacy policy](https://nibbs.app/privacy.html): what Nibbs collects and how to delete it
+- [Terms of use](https://nibbs.app/terms.html)
+- [Support](https://nibbs.app/support.html): how to get help
+- [Delete your account](https://nibbs.app/delete-account.html)
+- [Child safety standards](https://nibbs.app/child-safety.html)
