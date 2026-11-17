@@ -1,0 +1,5 @@
+# Nibbs: Homework Planner. Search engines and AI assistants are welcome to read this site.
+User-agent: *
+Allow: /
+
+Sitemap: https://nibbs.app/sitemap.xml
