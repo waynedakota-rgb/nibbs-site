@@ -42,3 +42,5 @@ footer .bar { padding: 18px 20px; }
 .hero-art img { width: 220px; height: auto; }
 .bubble { font-family: "Fredoka", "Lexend", system-ui, sans-serif; font-weight: 500; font-size: 17px; line-height: 1.35; background: var(--surface); color: var(--text); border: 2px solid var(--primary); border-radius: 18px; padding: 10px 14px; max-width: 230px; margin: 0 0 12px; position: relative; text-align: center; }
 .bubble::after { content: ""; position: absolute; left: 50%; bottom: -9px; width: 14px; height: 14px; background: var(--surface); border-right: 2px solid var(--primary); border-bottom: 2px solid var(--primary); transform: translateX(-50%) rotate(45deg); }
+.get-app { display: inline-block; background: var(--primary); color: var(--surface); font-weight: 600; text-decoration: none; padding: 12px 22px; border-radius: 999px; margin-top: 4px; }
+.get-app:hover { background: var(--primary-deep); }
